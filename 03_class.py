@@ -12,7 +12,6 @@ class Teacher(Person):
         Person.__init__(self, name, age)
         self.subject = subject
 
-
 teacher_English = Teacher("James", 34, "English")
 
 print(teacher_English.name)
