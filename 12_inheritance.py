@@ -1,7 +1,4 @@
 class Person:
-    def Person():
-        print("hi Person")
-
     def __init__(self, first, last):
         print("hi form __init__")
         self.firstname = first
