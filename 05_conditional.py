@@ -10,3 +10,19 @@ else:
 
 # shorthand
 print("A") if a > b else print("B")
+
+## 
+input1 = input("Please enter a test string: ")
+
+if len(input1) < 6:
+    print("Your string is too short.")
+    print("Please enter a string with at least 6 characters.")
+
+
+input2 = input("Please enter a number: ")
+input2 = int(input2)
+
+if input2%2 == 0:
+    print("Even")
+else:
+    print("Odd")
