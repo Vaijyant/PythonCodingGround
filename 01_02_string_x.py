@@ -22,3 +22,13 @@ print(a) # replace() returns a new string
 
 # split
 print(a.split(" "))
+
+
+message = 'I\'m Vaijyant.'
+message1 = "I'm Vaijyant."
+message2 = "\"This\" is quoted."
+message3 = """"This" is quoted."""
+message4 = '"This" is quoted.'
+
+print(message3)
+print(message4)
