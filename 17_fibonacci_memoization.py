@@ -36,7 +36,7 @@ from functools import lru_cache
 @lru_cache(maxsize = 1000)
 def fibonacci3(n):
     # Check that the input is positive intefer
-    if type != int or n < 1:
+    if type(n) != int or n < 1:
         return
 
     if n == 1:
@@ -47,4 +47,4 @@ def fibonacci3(n):
         return fibonacci3(n-1) + fibonacci3(n-2)
 
 for n in range(1, 501):
-    print(n, ":", fibonacci3('n'))
+    print(n, ":", fibonacci3(n))
