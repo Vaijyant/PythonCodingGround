@@ -1,0 +1,16 @@
+INFO:root:Our fist message.
+INFO:root:Our fist message.
+INFO:root:Our fist message.
+INFO 2018-09-25 22:07:23,041 - Our fist message.
+INFO 2018-09-25 22:09:11,032 - Our fist message.
+DEBUG 2018-09-25 22:09:11,033 - Debug
+WARNING 2018-09-25 22:09:11,033 - Warning
+ERROR 2018-09-25 22:09:11,033 - Error
+CRITICAL 2018-09-25 22:09:11,034 - Critical
+INFO 2018-09-25 22:18:10,234 - quadratic_formula(1, 0, -4)
+DEBUG 2018-09-25 22:18:10,234 - # Compute the discriminant
+DEBUG 2018-09-25 22:18:10,235 - # Compute the two roots
+DEBUG 2018-09-25 22:18:10,235 - # Return the roots
+INFO 2018-09-25 22:18:10,236 - quadratic_formula(1, 0, 1)
+DEBUG 2018-09-25 22:18:10,237 - # Compute the discriminant
+DEBUG 2018-09-25 22:18:10,238 - # Compute the two roots
